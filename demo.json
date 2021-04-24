@@ -9,10 +9,9 @@
     {
         "groupName": "High Confidence",
         "groupSlug": "High-Conf",
-        "matchPackageNames": [
-          "forever",
-          "helmet"
-        ]
+        "matchManagers": ["npm"],
+        "matchDepTypes": ["dependencies"],
+        "excludePackageNames": ["mongodb"]
     }
 
     ]
