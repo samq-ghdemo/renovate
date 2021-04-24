@@ -3,7 +3,17 @@
     {
       "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
+      "excludePackageNames": ["cypress"],
       "groupName": "npm devDependencies"
+    },
+    {
+        "groupName": "High Confidence",
+        "groupSlug": "High-Conf",
+        "matchPackageNames": [
+          "forever",
+          "helmet"
+        ]
     }
+
     ]
 }
