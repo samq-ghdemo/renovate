@@ -1,0 +1,19 @@
+{
+    "packageRules": [
+    {
+      "groupName": "npm devDependencies",
+      "groupSlug": "devDep",
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies"],
+      "excludePackageNames": ["pdfjs-dist"]
+
+    },
+    {
+        "groupName": "High Confidence",
+        "groupSlug": "highconf",
+        "matchManagers": ["npm"],
+        "matchDepTypes": ["dependencies"]
+    }
+
+    ]
+}
