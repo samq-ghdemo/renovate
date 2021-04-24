@@ -1,0 +1,9 @@
+{
+    "packageRules": [
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies"],
+      "groupName": "npm devDependencies"
+    }
+    ]
+}
