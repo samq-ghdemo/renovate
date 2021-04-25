@@ -11,16 +11,16 @@
         "groupName": "High Confidence",
         "groupSlug": "highconf",
         "matchPackagePrefixes": [
-          "org.webjars",
-          "org.eclipse.jetty",
-          "org.asciidocter"
+          "org.webjars:",
+          "org.eclipse.jetty:",
+          "org.asciidocter:"
         ]
     },
     {
       "groupName": "Maven Plugins",
       "groupSlug": "mvnplugins",
       "matchPackagePrefixes": [
-        "org.apache.maven.plugins"
+        "org.apache.maven.plugins:"
       ]
   }
 
