@@ -1,0 +1,20 @@
+{
+    "packageRules": [
+    {
+        "groupName": "Maven Test scope",
+        "groupSlug": "testscope",
+        "matchManagers": ["maven"],
+        "matchDepTypes": ["test"]
+  
+    },
+    {
+        "groupName": "High Confidence",
+        "groupSlug": "highconf",
+        "matchPackagePrefixes": [
+          "org.webjars:",
+          "org.eclipse.jetty:"
+        ]
+    }
+
+    ]
+}
