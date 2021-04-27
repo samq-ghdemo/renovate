@@ -1,5 +1,4 @@
 {
-    "semanticCommits": true,
     "packageRules": [
     {
         "groupName": "Maven Test scope",
