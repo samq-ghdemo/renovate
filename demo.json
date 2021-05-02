@@ -2,16 +2,24 @@
     "packageRules": [
     {
       "matchManagers": ["npm"],
+      "groupName": "npm devDependencies",
       "matchDepTypes": ["devDependencies"],
-      "excludePackageNames": ["cypress"],
-      "groupName": "npm devDependencies"
+      "excludePackageNames": [
+          "cypress",
+          "async"
+      ]
+      
     },
     {
         "groupName": "High Confidence",
         "groupSlug": "High-Conf",
         "matchManagers": ["npm"],
         "matchDepTypes": ["dependencies"],
-        "excludePackageNames": ["mongodb"]
+        "excludePackageNames": [
+            "mongodb",
+            "marked",
+            "csurf"
+        ]
     }
 
     ]
