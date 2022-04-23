@@ -1,10 +1,10 @@
 {
-    "packageRules": [
+  "packageRules": [
     {
-        "groupName": "Maven Test scope",
-        "groupSlug": "testscope",
-        "matchManagers": ["maven"],
-        "matchDepTypes": ["test"]
-  
+      "depTypeList": [
+        "test"
+      ],
+      "enabled": false
     }
+  ]
 }
